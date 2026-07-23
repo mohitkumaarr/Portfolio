@@ -84,8 +84,7 @@ padding-bottom : 150px;
 .main{
     margin-left: 250px;
     padding: 80px 80px;
-   border-left: 0.2px solid rgb(44, 42, 42);
-    border-bottom: 0.2px solid rgb(44, 42, 42);
+   
 }
 
 
@@ -216,7 +215,9 @@ section{
 }
 .card i{
     font-size:55px;
-    color:#6c63ff;
+   
+   
+    color:#930707;
     margin-bottom:20px;
     border-bottom: 0.2px solid rgb(44, 42, 42);
 }
@@ -231,13 +232,58 @@ section{
 }
 .card:hover{
     transform:translateY(-10px);
-    border-color:#6c63ff;
+   border-color:#930707;
+  
 }
 .cardi{
     font-size:50px;
 }
-.forborder{
-    border-bottom: 0.2px solid rgb(44, 42, 42);
-    padding-bottom:50px;
+.projects-heading{
     
+     margin-left:300px;
+     margin-top:80px;
+}
+    
+
+.projects-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 30px;
+    margin-left:300px;
+    margin-left:300px;
+    width: 1150PX;
+    
+   
+   
+}
+.cards{
+     background:#111827;
+    border:1px solid #2a2a2a;
+    border-radius:15px;
+    padding: 60px 30px;
+    text-align:center;
+    transition:0.3s;
+    
+    width: 300px;
+    
+    
+}
+.cards i{
+     font-size:55px;
+    color:#930707;
+    margin-bottom:20px;
+   
+
+}
+.cards:hover{
+    transform:translateY(-10px);
+    border-color:#930707;
+}
+.project{
+    gap:30px;
+}
+.contact{
+    margin-left:300px;
+    margin-top:60px;
 }
